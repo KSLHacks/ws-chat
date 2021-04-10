@@ -1,7 +1,7 @@
 import * as socketio from 'socket.io';
 import * as http from 'http';
 import * as express from 'express';
-import {ChatEvents} from '../constants';
+import {ChatEvents} from './constants';
 import {getCurrentUser, userJoin} from './users';
 import {formatMessage} from './message';
 
