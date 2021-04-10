@@ -1,0 +1,17 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "lib": [ "dom" ],
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*.tsx"
+  ]
+}
